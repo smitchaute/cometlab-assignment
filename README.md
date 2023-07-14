@@ -36,31 +36,17 @@ Solution Submission Endpoint
 Installation
 Clone the repository:
 
-git clone https://github.com/josephrayj/fibonalabs_task_Joseph_Ray_J.git
-Navigate to the project directory:
+https://github.com/smitchaute/cometlab-assignment.git
 
-cd project
-Create a virtual environment:
+Create a env.json file in root
 
-python3 -m venv venv
-Activate the virtual environment:
-
-For Windows:
-
-venv\Scripts\activate
-For macOS/Linux:
-
-source venv/bin/activate
 Install the project dependencies:
 
-pip install -r requirements.txt
-Apply database migrations:
+npm install
 
-python manage.py migrate
-Run the development server:
+Start the node server:
 
-python manage.py runserver
-Access the application in your web browser at http://localhost:8000.
+npm start
 
 Usage
 Authentication
